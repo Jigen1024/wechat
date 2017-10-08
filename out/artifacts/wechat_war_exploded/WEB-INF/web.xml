@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    
+    <servlet>
+        <servlet-name>Index</servlet-name>
+        <servlet-class>com.example.Index</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>MenuCreate</servlet-name>
+        <servlet-class>com.example.menu.MenuCreate</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>Hardware</servlet-name>
+        <servlet-class>com.example.Hardware</servlet-class>
+    </servlet>
+
+
+
+    <servlet-mapping>
+        <servlet-name>Index</servlet-name>
+        <url-pattern>/index</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>MenuCreate</servlet-name>
+        <url-pattern>/menu/create</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>Hardware</servlet-name>
+        <url-pattern>/hardware</url-pattern>
+    </servlet-mapping>
+
+</web-app>

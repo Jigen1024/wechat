@@ -1,0 +1,24 @@
+{
+  "button": [
+    {
+      "type": "click",
+      "name": "按钮测试",
+      "key": "button_test"
+    },
+    {
+      "name": "设备",
+      "sub_button": [
+        {
+          "name": "添加设备",
+          "type": "view",
+          "url": "http://123.206.21.41/wechat/index.jsp"
+        }
+      ]
+    },
+    {
+      "name": "企鹅",
+      "type": "view",
+      "url": "http://123.206.21.41/wechat/index.jsp"
+    }
+  ]
+}
